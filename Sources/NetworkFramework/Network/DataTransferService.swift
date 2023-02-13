@@ -39,8 +39,6 @@ public final class DefaultDataTransferService: DataTransferService {
     private let errorResolver: DataTransferErrorResolver
     private let errorLogger: DataTransferErrorLogger
     
-    var token: ApiKeyModel?
-    
     public init(with networkService: NetworkService,
                 errorResolver: DataTransferErrorResolver = DefaultDataTransferErrorResolver(),
                 errorLogger: DataTransferErrorLogger = DefaultDataTransferErrorLogger()) {

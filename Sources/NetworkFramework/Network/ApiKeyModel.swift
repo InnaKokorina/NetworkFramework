@@ -8,5 +8,5 @@
 import Foundation
 
 public struct ApiKeyModel: Encodable {
-    var key: String
+   public var key: String
 }
